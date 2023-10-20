@@ -11,5 +11,6 @@
 |Login_004|Login with invalid username|click the login button after entering an invalid username with a valid password|an error message should appear stating "Username and password do not match any user in this service"| 
 |Login_005|Login with invalid password|click the login button after entering a valid username and an invalid password|an error message should appear stating "Username and password do not match any user in this service"| 
 |Login_006|Login without sending password|click the login button after entering a valid username and leaving the password field empty|an error message should appear stating "Password is required"| 
+|Login_007|Login without sending username|click the login button after entering a valid password and leaving the username field empty|an error message should appear stating "Username is required"|
 
 for more details about the testcases and the used test data check the feature file "login.feature"
