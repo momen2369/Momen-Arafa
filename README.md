@@ -13,4 +13,4 @@
 |Login_006|Login without sending password|click the login button after entering a valid username and leaving the password field empty|an error message should appear stating "Password is required"| 
 |Login_007|Login without sending username|click the login button after entering a valid password and leaving the username field empty|an error message should appear stating "Username is required"|
 
-for more details about the testcases and the used test data check the feature file "login.feature"
+for more details about the test cases and the used test data check the feature file "login.feature"
