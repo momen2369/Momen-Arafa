@@ -27,6 +27,9 @@ public class LoginPage {
         return new InventoryPage(driver);
     }
 
+    /**
+     * @return the error message display on the page
+     */
     public String getErrorMessage() {
         return driver.findElement(errorMessage).getText();
     }
