@@ -1,7 +1,12 @@
 # SauceDemo-Login
-**Test automation framework for testing the login functionality using Cucumber, selenium, maven, and testng**
+- Test automation framework for testing the login functionality using Cucumber, selenium, maven, testng, using POM design pattern.
+- The selenium version used is <4.9.1> with the selenium web driver manger integrated to it, so there will be no need to setup any kind of driver and the framwork will run according to the local web driver version.
 
-### Test casses covered in the framwork
+## Demo
+[Demo Video](https://drive.google.com/file/d/1BlJd6uyd2KlZ00-MEx2FvBM28_cFJPfo/view?usp=sharing)
+
+
+## Test casses covered in the framwork
 
 |ID|Description|Steps|Expected results| 
 |:--------:|:--------:|:--------:|:--------:| 
@@ -13,4 +18,14 @@
 |Login_006|Login without sending password|click the login button after entering a valid username and leaving the password field empty|an error message should appear stating "Password is required"| 
 |Login_007|Login without sending username|click the login button after entering a valid password and leaving the username field empty|an error message should appear stating "Username is required"|
 
-for more details about the test cases and the used test data check the feature file "login.feature"
+for more details about the test cases and the used test data check the feature file "login.feature".
+
+
+## Steps to run
+1. Clone the repository to your local machine.
+2. Open your IDE and import the cloned project into your workspace.
+3. run using either the feature file directly or using the test runner class.
+
+   
+
+
